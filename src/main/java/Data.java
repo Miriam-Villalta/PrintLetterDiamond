@@ -1,6 +1,6 @@
 
 public class Data {
-    String abd = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     private void printResult(int letters){
         printUp(letters);
@@ -12,8 +12,8 @@ public class Data {
         for (int i = letters-1; i >= 0; i--){
             String blank = " ".repeat(letters-i-1);
 
-            String firstSeq = abd.substring(0, i);
-            char letter = abd.charAt(i);
+            String firstSeq = abc.substring(0, i);
+            char letter = abc.charAt(i);
             String finalSeq = new StringBuilder(firstSeq).reverse().toString();
 
             System.out.println(blank + firstSeq + letter + finalSeq);
@@ -21,8 +21,8 @@ public class Data {
     }
 
     private void printMiddle(int letters) {
-        String firstSeq = abd.substring(0, letters-1);
-        char letter = abd.charAt(letters-1);
+        String firstSeq = abc.substring(0, letters-1);
+        char letter = abc.charAt(letters-1);
         String finalSeq = new StringBuilder(firstSeq).reverse().toString();
 
         System.out.println(firstSeq + letter + finalSeq);
@@ -32,8 +32,8 @@ public class Data {
         for (int i = 0; i < letters-1; i++){
             String blank = " ".repeat(letters-i-1);
 
-            String firstSeq = abd.substring(0, i);
-            char letter = abd.charAt(i);
+            String firstSeq = abc.substring(0, i);
+            char letter = abc.charAt(i);
             String finalSeq = new StringBuilder(firstSeq).reverse().toString();
 
             System.out.println(blank + firstSeq + letter + finalSeq);
