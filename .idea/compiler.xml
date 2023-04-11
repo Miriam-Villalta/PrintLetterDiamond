@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RepasoUni1Ej2" />
+        <module name="PrintLetterDiamond" />
       </profile>
     </annotationProcessing>
   </component>
